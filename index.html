@@ -5,16 +5,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="/materialize/css/materialize.min.css">
-     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
      <link rel="stylesheet" href="/assets/css/util.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+     
      <link rel="stylesheet" href="/assets/css/style.css">
 </head>
 <body>
-    <nav class="white z-depth-0">
+    <nav class="white z-depth-0 top_navbar">
     <div class="nav-wrapper">
       <a href="#!" class="black-text hide-on-med-and-up">Home</a>
       <a href="#" data-target="mobile-demo" class="sidenav-trigger black-text"><i class="material-icons">menu</i></a>
-      <ul class="lefth hide-on-med-and-down">
+      <ul class=" hide-on-med-and-down">
         <li><a href="/"class="black-text">home</a></li>
         <li><a href="/users.html"class="black-text">Components</a></li>
         <li><a href="collapsible.html"class="black-text">Javascript</a></li>
@@ -24,21 +25,36 @@
   </nav>
 
   <ul class="sidenav" id="mobile-demo">
-    <li><div class="user-view">
+    <li>
+      <div class="user-view">
       <div class="background">
         <img src="/assets/image/office-2.webp" class="w-100">
       </div>
       <a href="#user"><img class="circle" src="/assets/image/office.jpg"></a>
-      <a href="#name"><span class="white-text name">saleh=Agh</span></a>
+      <a href="#name"><span class="white-text name">saleh-Agh</span></a>
       <a href="#email"><span class="white-text email">abdolsalehagharkakli@gmail.com</span></a>
-    </div></li>
-    <li><a href="#!"><i class="material-icons">link</i>First link with icon</a></li>
+    </div>
+  </li>
+    <li>
+      <a href="#!">
+        <i class="material-icons">
+          link
+        </i>
+        First link with icon
+      </a>
+    </li>
     <li><a href="#!"><i class="material-icons">link</i>Second Link</a></li>
     <li><div class="divider"></div></li>
     <li><a class="subheader">Subheader</a></li>
     <li><a class="waves-effect" href="#!">home</a></li>
-    <li><a class="waves-effect" href="#!"> users</a></lif
+    <li><a class="waves-effect" href="#!"> users</a></li>
   </ul>
+  <section class="flex-c-m flex-col sizefull p-r-20 p-l-20 p-t-100">
+    <img src="/assets/image/codeyad (1).png" alt="codeyad" class="W-full max-w-200 filter_shadow">
+    <a class="waves-effect waves-light btn blue darken-3 w-full max-w-250 m-t-10 m-b-10 rounded_pill">programming tutorial</a>
+    <a href="/users.html" class="waves-effect waves-light btn blue darken-3 w-full max-w-250 m-t-10 m-b-10 rounded_pill">user manager</a>
+  </section>
+
     <script src="/materialize/js/materialize.min.js"></script>
     <script src="/assets/js/main.js"></script>
 </body>
